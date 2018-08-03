@@ -216,7 +216,7 @@ if natk>=2:
 if Enatk>=2:
     Edist2=Edistribution;
     for s in range(Enatk-1):
-        Edistribution=matfold(dist2,distribution);
+        Edistribution=matfold(Edist2,Edistribution);
 
 #----------------This isn't used at the moment---------------------
 if sneak==1:
